@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int nilai[5];
+    int a=0;
+    int bil,i;
+    int maks=0;
+
+    for(i=0;i<5;i++){
+        a++;
+        cout<<"Masukan Data ke-"<<a<<"  = ";
+        cin>>nilai[i];
+    }
+     for(i=0;i<5;i++){
+        if (nilai[i]>maks)
+            maks=nilai[i];
+    }
+    cout<<maks;
+    cout<<endl;
+
+return 0;
+}

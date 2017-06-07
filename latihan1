@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int nilai[5];
+    int a=0;
+    int bil,i;
+
+    for(i=0;i<5;i++){
+        a++;
+        cout<<"Masukan Data ke-"<<a<<"  = ";
+        cin>>nilai[i];
+    }
+    for(i=0;i<5;i++){
+        a++;
+        cout<<endl<<nilai[i];
+    }
+    cout<<endl;
+
+return 0;
+}
